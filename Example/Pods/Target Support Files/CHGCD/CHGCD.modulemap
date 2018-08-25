@@ -1,0 +1,6 @@
+framework module CHGCD {
+  umbrella header "CHGCD-umbrella.h"
+
+  export *
+  module * { export * }
+}
