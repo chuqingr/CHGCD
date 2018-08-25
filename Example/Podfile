@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CHGCD_Example' do
+  pod 'CHGCD', :path => '../'
+
+  target 'CHGCD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
