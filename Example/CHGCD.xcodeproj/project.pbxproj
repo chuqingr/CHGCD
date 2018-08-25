@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* CHGCD_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHGCD_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		673EC04936024ACCE31BD23F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		673EC04936024ACCE31BD23F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7101318DFB953C6B61AF2CAB /* Pods_CHGCD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHGCD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E7F9CEBA8D8854D55968878 /* CHGCD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CHGCD.podspec; path = ../CHGCD.podspec; sourceTree = "<group>"; };
+		8E7F9CEBA8D8854D55968878 /* CHGCD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHGCD.podspec; path = ../CHGCD.podspec; sourceTree = "<group>"; };
 		A62686610D0D4716E60A1982 /* Pods-CHGCD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHGCD_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHGCD_Tests/Pods-CHGCD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B473AC1FC8A7F5D17AE8277B /* Pods-CHGCD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHGCD_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHGCD_Example/Pods-CHGCD_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C64765CA87A3080401B55FA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C64765CA87A3080401B55FA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				608C84D841E798D80DA6C98A /* [CP] Embed Pods Frameworks */,
+				67DFA1DADB73AEA6C1F73547 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 74UKG5A3GH;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 74UKG5A3GH;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -261,7 +263,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		608C84D841E798D80DA6C98A /* [CP] Embed Pods Frameworks */ = {
+		67DFA1DADB73AEA6C1F73547 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -469,6 +471,7 @@
 			baseConfigurationReference = 462F01C626513DBAF2EC9B69 /* Pods-CHGCD_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74UKG5A3GH;
 				INFOPLIST_FILE = CHGCD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +487,7 @@
 			baseConfigurationReference = B473AC1FC8A7F5D17AE8277B /* Pods-CHGCD_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74UKG5A3GH;
 				INFOPLIST_FILE = CHGCD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -498,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A62686610D0D4716E60A1982 /* Pods-CHGCD_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 74UKG5A3GH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0139FA57CC6293D504CCD729 /* Pods-CHGCD_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 74UKG5A3GH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

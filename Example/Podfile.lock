@@ -1,5 +1,5 @@
 PODS:
-  - CHGCD (0.1.0)
+  - CHGCD (1.0.0)
 
 DEPENDENCIES:
   - CHGCD (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CHGCD: 88d5f20f05032f0efe05c858c854cdf3d705c647
+  CHGCD: c7c445eacbba8495fbb49a3deb162d81240e1de0
 
 PODFILE CHECKSUM: aca9dad9d82e673ae5a9a25be751958679d96fd5
 
