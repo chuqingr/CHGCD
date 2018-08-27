@@ -77,6 +77,7 @@ pod 'CHGCD'
 
     private func gcdConcurrentQueueUse() {
         let concurrentQueue = GCDQueue.concurrent()
+        
         concurrentQueue.excute {
             for i in 0..<10 {
                 print("🔥" + String(i))
@@ -91,7 +92,6 @@ pod 'CHGCD'
     }
 
     private func gcdGroupNormalUse() {
-
         // Init group.
         let group = GCDGroup()
 
@@ -153,9 +153,9 @@ pod 'CHGCD'
     }
 
     private func gcdGroupWaitUse() {
-
         // Init group.
         let group = GCDGroup()
+        
         group.enter()
         group.enter()
 
@@ -184,7 +184,6 @@ pod 'CHGCD'
 
 
     private func gcdSemaphoreWaitForeverUse() {
-
         // Init semaphore.
         let semaphore = GCDSemaphore()
         print("start.")
