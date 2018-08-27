@@ -23,7 +23,7 @@ pod 'CHGCD'
 ## USE
 
 ``` swift
-	private func gcdQueueUse() {
+private func gcdQueueUse() {
         // Excute in main queue.
         GCDQueue.main.excute {
             print("GCDQueue.Main.excute")
